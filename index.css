@@ -3,8 +3,11 @@
     padding: 10px;
     box-sizing: border-box;
 }
-
+body{
+    background: black;
+}
 .padre{
+    background: blue;
     display: flex;
     flex-flow: column nowrap;
 }
@@ -77,3 +80,40 @@
         .pie{
             background: yellow;
         }
+        
+@media all and (max-width:800px){
+    body{
+        background: black;
+    }
+    .padre{
+        background: green;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .articles{
+        flex-direction: column;
+    }
+}
+
+
+@media all and (max-width:400px){
+    body{
+        background: black;
+    }
+    .padre{
+        background: pink;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .articles{
+        flex-direction: column;
+    }
+}
