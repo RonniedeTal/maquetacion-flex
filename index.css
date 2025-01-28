@@ -1,0 +1,60 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background: black;
+    }
+        .menu{
+            background: gray;
+        }
+            .logo{
+                background: red;
+            }
+            .nav{
+                background: red;
+            }
+            .social{
+                background: red;
+            }
+        .banner{
+            background: orange;
+        }
+            h1{
+                background: yellow;
+            }
+
+
+    .section{
+        background: black;
+    }
+        .articles{
+            background: gray;
+        }
+            article{
+                background: blue;
+            }
+            .navegacion{
+                background: lightblue;
+            }
+
+        aside{
+            background: red;
+        }    
+            .publicidad{
+                background: yellow;
+            }
+
+    .footer{
+        background: black;
+    }
+        .pie{
+            background: yellow;
+        }
