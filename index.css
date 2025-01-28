@@ -23,10 +23,7 @@
                 background: red;
                 flex: 1 auto;
             }
-                .logo:hover{
-                    background: fuchsia;
-                    transform: scale(1.2);
-                }
+               
             .nav{
                 background: red;
                 flex: 4 auto;
@@ -45,15 +42,23 @@
 
     .section{
         background: black;
+        display: flex;
+        flex-flow: row nowrap;
     }
         .articles{
             background: gray;
+            flex: 5 auto;
+            display: flex;
+            flex-flow: row wrap;
+
         }
             article{
                 background: blue;
+                flex: 40%;
             }
             .navegacion{
                 background: lightblue;
+                flex: 100%;
             }
 
         aside{
