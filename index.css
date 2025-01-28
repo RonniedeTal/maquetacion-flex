@@ -11,18 +11,29 @@
 
     .header{
         background: black;
+        display: flex;
+        flex-flow: column nowrap;
     }
         .menu{
             background: gray;
+            display: flex;
+            flex-flow: row nowrap;
         }
             .logo{
                 background: red;
+                flex: 1 auto;
             }
+                .logo:hover{
+                    background: fuchsia;
+                    transform: scale(1.2);
+                }
             .nav{
                 background: red;
+                flex: 4 auto;
             }
             .social{
                 background: red;
+                flex: 1 auto;
             }
         .banner{
             background: orange;
