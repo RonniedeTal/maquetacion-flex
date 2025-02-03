@@ -3,12 +3,12 @@
 This repo is for practicing a little bit of flex-box using html and css
 
 ## Technologies
--HTML
--CSS
+.HTML
+.CSS
 
 ## Requirements
--Create a github repo
--Responsive App
+.Create a github repo
+.Responsive App
 
 ## Install
 Using bash

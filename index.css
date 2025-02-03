@@ -81,7 +81,7 @@ body{
             background: yellow;
         }
         
-@media all and (max-width:800px){
+@media (min-width:768px){
     body{
         background: black;
     }
